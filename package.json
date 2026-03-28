@@ -1,0 +1,32 @@
+{
+  "name": "calendar-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@azure/identity": "^4.13.1",
+    "@discordjs/rest": "^2.6.1",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "better-sqlite3": "^12.8.0",
+    "discord-api-types": "^0.38.42",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1",
+    "googleapis": "^171.4.0",
+    "isomorphic-fetch": "^3.0.0",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js"
+}
+}
